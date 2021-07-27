@@ -1,0 +1,148 @@
+body{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#ffffff; 
+  background: linear-gradient(to bottom, #9966ff 0%, #ff99cc 100%);
+  margin:0px;
+    }
+
+h1{
+  font-size: 60px;
+  font-weight: 300;
+  }
+
+h2{
+  color:#2a0074;
+  font-size: 40px;
+  }
+
+h3{
+  font-size: 22px;
+  font-style: italic;
+  }
+
+p{
+  font-size:20px;
+  line-height: 1,5;
+  }
+
+.titulo-vinho{
+  color: #4d0026;
+  }
+.titulo-rosa{
+  color: #ff1a8c;
+  }  
+.titulo-forte{
+  color:#1a000d;
+  }
+
+section{ /* section da ada loveless */
+  
+  background-color: rgba(10,23,55,0.3);
+  width: 60%;
+  margin: 0 auto;
+
+  }
+section section{ /* aqui eu peço que toda section que seja filha da section preencha 100% da largura de 60% da principal/ essa section é das fases da vida */
+  width:100%;
+  }
+
+  
+
+img{
+  width: 100%;
+  }
+
+ul{
+  list-style-type: none;
+  line-height: 2;
+  padding-left: 0;
+  }
+
+a{
+  text-decoration: none;
+  color:#99ffff;
+  font-weight: 700;
+   }  
+
+a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+
+.principal ul li a{ 
+  color: #FFF;
+  text-decoration: underline;
+  font-weight: normal; 
+  
+   }/* ler da direita para a esquerda. todos os "a" que estão dentro de uma lista não ordenada, que são filhas da classe chamada "principal" devem ter esse estilo */
+
+.principal{
+  background-color: #FF6CB5;
+  height: 40px;
+  max-width: 60%; /* eu disse que queria que a sessao principal ocupasse no maximo 60 % da tela */
+  margin: 0 auto; /* e pedi que a margem do top,left,right e botton criassem margem padrao e centralizasse */
+   }
+
+.principal li{  
+  display: inline-block;
+  line-height: 2.5; /* altura das linhas dentro do texto */
+  margin: 0 89px; /*definindo a margem dentro da section principal sendo 0 de altura e 89px das larguras */
+   }   /*maneira que os elementos vão ser exibidos na sessão */
+
+.contatos ul li{
+  display: inline-block;
+  max-width: 60%; /* eu disse que queria que a sessao principal ocupasse no maximo 60 % da tela */
+  margin-top: 20px 89px;
+  line-height: 2.5;
+    }
+
+.contatos{
+  background-color: rgba(248, 248, 250, 0.3); 
+  max-width: 60%;
+  margin: 0 auto; 
+  }
+
+#botaoEnviar { /* se seleciona o id do html com a tag # */
+  font-size:15px;
+  font-family:Arial;
+  width:116px;
+  height:34px;
+  border-width:1px;
+  color:#fff;
+  border-color:#c584f3;
+  font-weight:bold;
+  border-top-left-radius:18px;
+  border-top-right-radius:18px;
+  border-bottom-left-radius:18px;
+  border-bottom-right-radius:18px;
+  box-shadow:inset 0px 1px 0px 0px #efdcfb;
+  text-shadow:inset 0px 1px 0px #9752cc;
+  background:linear-gradient(#dfbdfa, #bc80ea);
+  } /* button{
+ background: #41f341;
+ border: 1px solid transparent;
+ padding: 2px 20px;
+ border-radius: 3px; */
+
+
+
+
+
+
+
+  /*O atributo for adiciona informação à tag label indicando para qual campo de input serve esse rótulo (label). O atributo id é um identificador único que pode ser usado em qualquer tag. No exemplo da questão, foi usado para identificar o campo de input para poder associá-lo a um rótulo específico. O atributo type é usado para adicionar informação à tag input indicando o tipo de dado que esse campo deve receber. */
