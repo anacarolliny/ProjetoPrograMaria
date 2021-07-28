@@ -42,6 +42,9 @@ Para usar o formulário, siga estas etapas:
 
 #EuProgrAmoTurma10 | [Link do Curso](https://www.programaria.org/curso-online-euprogramo/)
 
+*“Vem ser tripulante do Curso Online Eu ProgrAmo - Turma 11! Use meu cupom ASTRONAUTA15OFF
+e garanta 15% OFF! Não pode pagar? Fique de olho no nosso processo seletivo de bolsas!"*
+
 *Isso nos fortalece e nos motiva, e pode motivar também outras pessoas a darem aquele passo que estava faltando!*
 
 
